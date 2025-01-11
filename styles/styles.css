@@ -27,6 +27,7 @@
     font-size: 16px;
 }
 
+
 /* Banner of Bangladesh 2.0*/
 
 .banner {
@@ -53,6 +54,10 @@
     margin-top: 24px;
 }
 
+.banner-btn:hover{
+    background-color: #C6E4D6;
+}
+
 .banner-heading {
     color: rgba(14, 14, 14, 0.5);
     font-size: 24px;
@@ -74,6 +79,10 @@
     padding: 17px 34px;
     border: none;
     font-weight: bold;
+}
+
+.banner-btn-2:hover{
+    background-color: #297a40;
 }
 
 .banner-picture{
@@ -154,7 +163,11 @@
     padding: 17px 34px;
     border: none;
     font-weight: bold;
-    margin-top: 35px;
+    margin-top: 45px;
+}
+
+.v-btn-1:hover{
+    background-color: rgb(168, 194, 240);
 }
 
 .v-btn-2{
@@ -169,6 +182,10 @@
 
 }
 
+.v-btn-2:hover{
+    background-color: rgb(100, 172, 139);
+}
+
 .v-btn-3{
     text-decoration: none;
     background-color: rgba(255, 194, 57, 1);
@@ -178,6 +195,10 @@
     border: none;
     font-weight: bold;
     margin-top: 50px;
+}
+
+.v-btn-3:hover{
+    background-color: rgb(226, 205, 155);
 }
 
 .vision-block{
@@ -243,6 +264,10 @@
     font-weight: bold;
 }
 
+.donate-btn:hover{
+    background-color: #C6E4D6;
+}
+
 .donate-now{
     margin-top: 32px;
     margin-bottom: 32px;
@@ -292,6 +317,10 @@
     height: 56px;
     padding-left: 0px;
 
+}
+
+.sub-btn:hover{
+    background-color: #297a40;
 }
 
 .spam{
