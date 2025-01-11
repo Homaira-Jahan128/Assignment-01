@@ -92,12 +92,15 @@
     display: flex;
     justify-content: center;
     gap: 24px;
+    
 }
 
 .piller{
     background-color: #FFFFFF;
     border-radius: 16px;
     padding: 24px;
+    width: 302px;
+    height: 244px;
 }
 
 .piller-name{
@@ -241,10 +244,13 @@
 }
 
 .donate-now{
-    width: 100%;
+    margin-top: 32px;
+    margin-bottom: 32px;
+    width: 1032px;
     height: 64px;
     border: none;
-    align-items: center;
+    text-align: center;
+    font-size: 20px;
 }
 
 /* subscribe Newsletter styles */
@@ -258,19 +264,68 @@
     outline: none;
 }
 
+.subscribe{
+    align-items: center;
+}
+
+.sub-email{
+    margin-top: 32px;
+    margin-bottom: 32px;
+    width: 600px;
+    height: 55px;
+    border: none;
+    /* text-align: center; */
+    padding-left: 40px;
+    padding-right: 0px;
+    font-size: 20px;
+}
+
+.sub-btn{
+    text-decoration: none;
+    background-color: #006A50;
+    color: white;
+    border-radius: 0px 8px 8px 0px;
+    /* padding: 17px 34px; */
+    border: none;
+    font-weight: bold;
+    width: 150px;
+    height: 56px;
+    padding-left: 0px;
+
+}
+
 .spam{
     font-size: 16px;
+    font-weight: normal;
     color: rgba(14, 14, 14, 0.7);
 }
 
 /* Footer style */
 
-footer{
+.footer-background{
     background-color: #FFFFFF;
-
+    margin: 24px 0px;
+    margin-bottom: 0px;
+    align-items: ceneter;
+    height: 226px;
 }
+
 .social{
     display: flex;
     justify-content: center;
     gap: 23px;
+}
+
+.footer-title{
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 80px;
+    margin-bottom: 32px;
+    padding-top: 50px;
+}
+
+hr{
+    width: 1122px;
+    color: rgba(14, 14, 14, 0.1);
+    margin-bottom: 32px;
 }
